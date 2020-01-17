@@ -134,7 +134,7 @@ public class ExcelUtils {
 		}
 	}
 
-	// Nasa nova metoda boolean
+	
 	public static boolean setDataAt(int row, int column, boolean data) {
 		try {
 			XSSFRow r = sheet.getRow(row);
@@ -166,19 +166,6 @@ public class ExcelUtils {
 		}
 	}
 	
-//	//pokusaj da napravis metodu koja vraca broj kolona u redu
-//	public static int getCellNumber() {
-//		try {
-//			int row1 = sheet.getFirstRowNum();
-//			
-//			return ;
-//			
-//		} catch (Exception e) {
-//			System.out.println(e.toString());
-//			System.out.println("Doslo je do greske!");
-//			return -1;
-//		}
-//	}
 
 	public static boolean closeExcell() {
 		if (wb != null) {
